@@ -28,7 +28,7 @@ def yield_xml_doc(filepath):
 
 def main():
     """ Command-line entry-point. """
-    logging.basicConfig(level=logging.INFO, format="%(message)s")
+    logging.basicConfig(level = logging.INFO, format = "%(message)s")
 
     for xml_doc in yield_xml_doc(sys.argv[1]):
         if xml_doc["start"] <= int(sys.argv[2]) <= xml_doc["end"]:

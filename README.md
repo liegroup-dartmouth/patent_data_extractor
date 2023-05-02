@@ -1,5 +1,3 @@
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 # USPTO Patent Data Extractor
 
 ## DOCUMENTATION
@@ -8,7 +6,7 @@
 
 - Python >= 3.6 is required.
 
-```
+```{shell}
 usage: patent_xml_to_csv.py -i XML_INPUT [XML_INPUT ...] -c CONFIG -d DTD_PATH -o OUTPUT_PATH
                             [--output-type {csv,sqlite}] [-r] [--validate] [--continue-on-error]
                             [--processes PROCESSES] [-h] [-v]
